@@ -1,0 +1,43 @@
+{
+  "id": "6970d9b7-bfa1-484a-913f-c2fa8d11d203",
+  "name": "GuttenPlan_Reports",
+  "publisher": "KMK Business",
+  "version": "26.0.0.28",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {"id": "96b35a7b-1989-4acc-8024-00ccdbfce3e3",
+  "name": "GuttenPlanExt",
+  "publisher": "KMK Business",
+  "version": "26.0.0.0"},
+  {
+     "id": "df5ca1cf-59b8-4363-8284-d1a7b5de0d2f",
+  "name": "GuttenPlan GUI",
+  "publisher": "KMK Business",
+  "version": "26.0.0.6"
+  },
+  {"id": "9fcd3951-9480-4cb5-8912-e92ca0a5fdf9",
+  "name": "GFD User Interface",
+  "publisher": "GFD - Guttenplan's",
+  "version": "1.0.2.0"}
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50150
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
