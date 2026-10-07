@@ -3,9 +3,9 @@ reportextension 50053 KMK_AgedAR extends "Aged Accounts Receivable NA"
     dataset
     {
         // Add changes to dataitems and columns here
-        add("Cust. Ledger Entry")
+        add(Totals)
         {
-            column(External_Document_No_; "External Document No.")
+            column(External_Document_No_; "Cust. Ledger Entry"."External Document No.")
             {
             }
         }

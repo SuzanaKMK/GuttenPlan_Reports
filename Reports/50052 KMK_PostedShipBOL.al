@@ -288,6 +288,9 @@ report 50051 KMK_PostedShipBOL
             column(QuoteNo; "Quote No.")
             {
             }
+            column(OrderNo; "Order No.")
+            {
+            }
             column(QuoteNo_Lbl; FieldCaption("Quote No."))
             {
             }

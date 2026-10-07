@@ -1801,14 +1801,18 @@ report 50050 KMKBillOfLading
         if SRSetup.KMK_APIUserID = UserSecurityId() then begin
 
             // use eastern timezone specifically
-            TypeHelper.GetTimezoneOffset(TimezoneOffset, 'Eastern Standard Time');
+            // TypeHelper.GetTimezoneOffset(TimezoneOffset, 'Eastern Standard Time');
             //>> TypeHelper.GetTimezoneOffset(TimezoneOffset, UtcDateTime, 'Eastern Standard Time');
 
-            exit(UtcDateTime + TimezoneOffset);
+
+            //>>exit(UtcDateTime + TimezoneOffset);
+            exit(UtcDateTime - 5 * 3600 * 1000);
         end;
 
         exit(UtcDateTime);
     end;
+
+
 
     [IntegrationEvent(false, false)]
     local procedure OnAfterOnInit(var SalesHeader: Record "Sales Header")
